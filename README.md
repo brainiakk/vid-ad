@@ -4,5 +4,5 @@
 This is an old project, I updated the packages so you can use most of the codes with Laravel 8
 </p>
 <p>
-A Simple youtube like video streaming and ad/campaign management system
+A Simple youtube like Video streaming & Live Chat and ad/campaign management system 
 </p>
