@@ -5,4 +5,6 @@ This is an old project, I updated the packages so you can use most of the codes 
 </p>
 <p>
 A Simple youtube like Video streaming & Live Chat and ad/campaign management system 
+
+Livechat: Laravel Echo, Pusher & Vue JS
 </p>
