@@ -1,0 +1,56 @@
+.input
+{
+    background: #2B2B2B !important;
+    border: none;
+    width: 98%;
+    padding: 12px 15px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    color: #fff;
+    cursor: text;
+    display: inline-flex;
+    position: relative;
+    font-size: 14px;
+    box-sizing: border-box;
+    font-weight: 400;
+
+    line-height: 20px;
+    border-radius: 4px;
+    outline: none;
+}
+
+ .input::placeholder
+{
+    color: #999;
+}
+
+ .input:focus
+{
+    background: #484848 !important;
+}
+
+button
+{
+    background: #0078F2 !important;
+    margin-top: 15px;
+}
+
+label
+{
+    color: #fff;
+    margin-top: 20px;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+.mL label
+{
+    margin-top: 5px !important;
+    font-size: 15px !important;
+}
+
+textarea
+{
+    width: 99% !important;
+    min-height: 100px;
+}

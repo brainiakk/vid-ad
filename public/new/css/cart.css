@@ -1,0 +1,99 @@
+.cart
+{
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 50px 0px 100px 0px ;
+}
+
+.breadCrumb
+{
+    border-bottom: 1px solid #5F5F5F;
+    display: flex;
+}
+
+.breadCrumb p
+{
+    margin-bottom: 0px !important;
+    color: #ccc;
+}
+
+.breadCrumb .bActive
+{
+    border-bottom: 3px solid #0078F2;
+    width: fit-content;
+    padding-bottom: 5px;
+    color: #fff;
+}
+
+
+.payRow
+{
+    border-radius: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.payRow p
+{
+    margin-bottom: 0px !important;
+    margin-top: 3px;
+}
+
+.payRow i
+{
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+
+input[type = radio]
+{
+    padding: 30px !important;
+    cursor: pointer;
+}
+
+.cartProImg img
+{
+    width: 90%;
+    min-height: 120px;
+    object-fit: cover;
+}
+
+.cartPro .row > div
+{
+    padding: 0px;
+}
+
+.mb0
+{
+    margin-bottom: 0px !important;
+}
+
+.pa0
+{
+    padding: 0px !important;
+}
+
+.s_b
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.total
+{
+    border-top: 1px solid #5F5F5F;
+    border-bottom: 1px solid #5F5F5F;
+    padding-top: 1em;
+}
+
+.button
+{
+    width: 100%;
+    text-transform: uppercase;
+}

@@ -1,0 +1,143 @@
+body
+{
+    overflow-x: hidden;
+}
+
+.career_bannner
+{
+    background-image: url(../images/career.png);
+    height: 55vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.careerInput,
+.careerBtn
+{
+    padding: 10px;
+    width: 280px;
+    outline: none;
+    border: none;
+}
+
+.careerBtn
+{
+    width: 100px;
+    background: #0078F2;
+    color: #fff;
+    outline: none;
+}
+
+/* .why
+{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+} */
+
+.whyRow
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 40px;
+    overflow-y: hidden !important;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0px !important;
+    width: fit-content;
+    text-align: left;
+}
+
+.heading
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.bold
+{
+    font-size: 20px;
+}
+
+/* deciplane css */
+.deciplane
+{
+    padding: 50px 120px;
+}
+.deciMain
+{
+    /* background: #141B24; */
+    margin-top: 8px;
+}
+
+.deciMain .deciImg
+{
+    width: 100%;
+    height: 330px;
+}
+
+.deciMain .deciImg img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.deciMain .deciDesc
+{
+    padding: 50px 40px;
+    color: #fff;
+    min-height: 300px;
+}
+
+.deciContent .col-lg-4,
+.deciContent .col-md-6,
+.deciContent .col-sm-12
+{
+    padding: 0px 4px;
+}
+
+.deciMain .deciDesc p
+{
+    margin-top: 10px;
+}
+
+.deciMain .deciDesc h2
+{
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+@media only screen and (max-width:600px)
+{
+    .career_bannner
+    {
+        padding-left: 20px;
+    }
+    .careerInput
+    {
+        width: 200px;
+    }
+    .careerBtn
+    {
+        width: unset;
+    }
+    .whyRow
+    {
+        padding: 20px;
+    }
+
+}
+@media only screen and (max-width:1200px)
+{
+    .deciplane
+    {
+        padding: 50px 20px !important;
+    }
+}

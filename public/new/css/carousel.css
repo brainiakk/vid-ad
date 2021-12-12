@@ -1,0 +1,144 @@
+
+/* banner caption */
+.bannerCap
+{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 60px !important;
+}
+
+.bannerCap h2
+{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.bannerCap p
+{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.bannerCap .button
+{
+    display: block;
+}
+
+
+/* Styles for wrapping the search box */
+
+.main {
+    width: 50%;
+    margin: 50px auto;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    display: flex;
+    color: #aaa;
+    align-items: center;
+    justify-content: center;
+}
+
+.has-search span
+{
+    font-size: 15px !important;
+}
+
+/* carousel css */
+
+.carousel-control-next, .carousel-control-prev
+{
+    width: 5% !important;
+}
+
+.carousel-item
+{
+    height: 50vh;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: top !important;
+    display: flex;
+    align-items: center;
+
+}
+
+#item1
+{
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4) ),url('../images/cyberCover.jpg');
+}
+
+#item2
+{
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4) ),url('../images/fortnite.jpg');   
+}
+
+#item3
+{
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4) ),url('../images/dark_banner.jpg');
+}
+
+.carousel-indicators li
+{
+    display: block;
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    border: 2px solid #fff !important;
+    background: transparent !important;
+}
+
+.carousel-indicators .active
+{
+    background: #fff !important;
+}
+
+/* .carousel-inner p
+{
+    margin-bottom: 5px;
+} */
+
+.carousel-caption {
+    left: 7% !important;
+}
+
+.carousel-inner .button
+{
+    background:#121212;
+    color: #fff;
+}
+
+@media only screen and (max-width:600px)
+{
+    nav
+    {
+        padding: 0px 20px !important;
+    }
+    .nav-link
+    {
+        text-align: center;
+    }
+    .navbar-brand
+    {
+        margin-right: 0px !important;
+    }
+
+}

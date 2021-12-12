@@ -1,0 +1,74 @@
+/* banner section */
+.mainBanner
+{
+    height: 62vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4) ),url(../images/banner.jpg);
+    background-size: cover;
+    border-radius: 5px;
+    display: flex;
+    align-items: flex-end;
+    padding:20px;
+}
+
+/* banner col2 css */
+.bannerBox
+{
+    background: #000;
+    border-radius: 5px;
+    height: 25vh;
+    color: #fff;
+}
+
+.boxImg
+{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.boxImg img
+{
+    height: 80%;
+    width: 40%;
+}
+
+.flex-col
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bannerBox p
+{
+    margin-left: 10px;
+}
+
+.capture
+{
+    background: #292D2E;
+    color: #E9E9EB;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.bold
+{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.border_right
+{
+    border-right: 1px solid #959698;
+}
+
+
+.home_banner
+{
+    padding: 0px 50px;
+}

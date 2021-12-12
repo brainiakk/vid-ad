@@ -1,0 +1,241 @@
+/* Typography */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+/* DEFAULTS */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+}
+
+html,
+body
+{
+    background-color: #121212 !important;
+    font-size: 14px;    
+    color: #fff;
+    overflow-x: hidden;
+}
+
+p,
+a
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.row
+{
+    margin: 0px !important;
+}
+
+.wrapper
+{
+    padding:10px 60px;
+    max-width: 1366px;
+    margin: 0px auto;
+}
+
+.orange
+{
+    color: #F9722E;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.bold
+{
+    color: #E9E9EB;
+}
+
+.light
+{
+    color: #BFBFBF;
+}
+
+.white
+{
+    color: #ffff;
+}
+
+.heading h2
+{
+    color: #E9E9EB !important;
+}
+
+
+/* library css */
+.libraryRow
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.libraryRow .box
+{
+    min-width: 150px;
+    width: 235px;
+    margin-top: 40px;
+}
+
+.box .img-area
+{
+    width: 100%;
+    height: 305px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.box .img-area img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.box .img-area img:hover
+{
+    opacity: 0.8;
+}
+
+.box .desc-area
+{
+    margin-top: 5px;
+    padding-left: 2px;
+}
+
+.imgTitle
+{
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+
+.button
+{
+    background-color: rgba(255,255,255,0.2);
+    padding: 10px 30px;
+    color: #fff;
+    width: fit-content;
+    outline: none;
+    border: none;
+}
+
+.button:hover
+{
+    color: #fff !important;
+}
+
+@media only screen and (max-width:950px)
+{
+    .wrapper
+    {
+        padding: 20px !important;
+    }
+    .home_banner
+    {
+        padding: 0px 10px !important;
+    }
+    .libraryRow .box
+    {
+        width: 24%;
+    }
+    /* responsive nav css */
+
+}
+@media only screen and (max-width:750px)
+{
+
+    .overlap
+    {
+        height: auto;
+        padding-top: 50px;
+    }
+    .libraryRow
+    {
+        justify-content: space-around;
+    }
+    .libraryRow .box
+    {
+        width: 47%;
+        min-width: unset;
+    }
+    .libraryRow .box .img-area
+    {
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width:600px)
+{
+    .libraryRow .box .img-area
+    {
+        height: 300px;
+    }   
+
+
+}
+@media only screen and (max-width:450px)
+{ 
+    .libraryRow .box .img-area
+    {
+        height: 210px;
+    }
+}
+
+/* footer css */
+footer
+{
+    color: #fff !important;
+    border-top:1px solid #2A2A2A;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+footer > div
+{
+    justify-content: center !important;
+    align-items: center;
+    text-align: center;
+}
+.quickLinks
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quickLinks p
+{
+    margin-top:10px;
+    display: block;
+    min-width: 50px;
+}
+
+.phone p
+{
+    margin-top: 1em;
+}
+
+footer a
+{
+    color: #fff;
+}
+
+footer a:hover
+{
+    color: #fff;
+}

@@ -1,0 +1,207 @@
+.gameDesc
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gameDesc .col1
+{
+    width: 25%;
+}
+
+.gameDesc .col2
+{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 0px 30px;
+}
+
+.gameDesc .col3
+{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.gameDesc .col1 .descImg
+{
+    width: 100%;
+    height: 150px;
+    background: #262626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameDesc .col1 .descImg img
+{
+    width: 80%;
+    height: 50%;
+}
+
+.button
+{
+    background: #0078F2;
+    padding: 10px 20px !important;
+    display: block;
+    outline: none;
+    border: none;
+}
+
+.buy
+{
+    width: 85% !important;
+    border-radius: 3px 0px 0px 3px;
+}
+
+.heart
+{
+    width: 15%;
+    margin-left: 1px;
+    /* padding: 10px 0px !important; */
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 3px 3px 0px;
+}
+
+/* slider css */
+.detail_banner .carousel-item
+{
+    height: 50vh !important;
+    overflow: hidden;
+}
+
+.detail_banner .carousel-item img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.carousel-indicators 
+{
+    bottom: -35px;
+}
+
+.detail_banner .carousel-indicators li
+{
+    display: block;
+    width: 5px !important;
+    height: 5px !important;
+    border-radius: 50%;
+    border: 1px solid #fff !important;
+    background: transparent !important;
+    margin: 0px 8px;
+}
+
+.detail_banner .carousel-indicators .active
+{
+    background: #fff !important;
+}
+
+.heading h2
+{
+    margin-top: 23px;
+    font-size: 20px;
+    border-bottom: 2px solid #0078F2;
+    width: fit-content;
+    padding-bottom: 4px;
+}
+
+.sub-head
+{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.row
+{
+    margin: 0px !important;
+}
+
+.detailPad
+{
+    padding-left: 35px !important;
+}
+
+@media only screen and (max-width:600px)
+{
+    .detailPad
+    {
+        padding-left: 0px !important;
+    }  
+    .gameDesc .col1,
+    .gameDesc .col2,
+    .gameDesc .col3
+    {
+        width: 100% !important;
+        margin-top: 20px;
+    }
+}
+
+.c100 > span 
+{
+    color: #000 !important;
+}
+
+.reviewBox
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.white
+{
+    color: #fff;
+}
+
+/* review box css */
+.rBox
+{
+    background: #262626;
+    padding: 20px 15px;
+    margin-top: 20px;
+}
+
+.rBox .bold
+{
+    font-weight: bolder;
+}
+
+.bold .light
+{
+    font-weight: 500 !important;
+    border-bottom: 1px solid #555;
+    display: flex;
+    padding-bottom: 15px;
+}
+
+.rBox a:hover
+{
+    color: #ffff;
+}
+
+.follow
+{
+    background: #262626;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.follow i
+{
+    color: #fff;
+    font-size: 25px;
+    margin: 20px;
+    cursor: pointer;
+}

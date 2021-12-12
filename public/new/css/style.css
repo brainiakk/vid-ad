@@ -1,0 +1,471 @@
+/* Typography */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+/* DEFAULTS */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body
+{
+    background-color: #121212 !important;
+    font-size: 14px;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+p,
+a
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.row
+{
+    margin: 0px !important;
+}
+
+
+/* banner caption */
+.bannerCap
+{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 60px !important;
+}
+
+.bannerCap h2
+{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: -5px;
+}
+
+.bannerCap p
+{
+    font-weight: 400;
+    font-size: 20px;
+    margin: 1rem 0;
+}
+
+.bannerCap .button
+{
+    display: block;
+}
+
+/* CONTENT SECTION */
+.wrapper
+{
+    padding: 50px 100px;
+    max-width: 1366px;
+    margin: 0px auto;
+}
+
+.hero_section
+{
+    background: #202020;
+    padding: 0px !important;
+}
+
+.hero_img
+{
+    width: 100%;
+    height: 350px;
+}
+
+.hero_img img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.col-sm-6,
+.col-sm-7
+{
+    padding: 0px !important;
+}
+
+.hero_desc
+{
+    color: #fff !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px !important;
+}
+
+.hero_desc:hover
+{
+    background: #2a2a2a;
+}
+
+.hero_desc p
+{
+    color: #BFBFBF !important;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.hero_desc a
+{
+    color: #fff;
+    font-weight: 600;
+}
+
+.hero_desc a:hover
+{
+    color: #fff;
+}
+.Releaserow
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Releaserow .box
+{
+    min-width: 150px;
+    width: 19%;
+    margin-top: 10px;
+}
+
+.box .img-area
+{
+    width: 220px;
+    height: 290px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.box .img-area img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.box .img-area img:hover
+{
+    opacity: 0.8;
+}
+
+.box .desc-area
+{
+    margin-top: 10px;
+    padding-left: 2px;
+}
+
+.bold
+{
+    color: #fff;
+}
+
+.light
+{
+    color: #BFBFBF;
+}
+
+.price
+{
+    color: #fff;
+    font-size: 16px;
+}
+
+.button
+{
+    background-color: rgba(255,255,255,0.2);
+    padding: 10px 30px;
+    color: #fff;
+    width: fit-content;
+    outline: none;
+    border: none;
+}
+
+.button:hover
+{
+    color: #fff !important;
+}
+
+.overlap
+{
+    height: 380px;
+    margin-top: 20px;
+}
+.skyGradient
+{
+    background: rgb(129,199,248) linear-gradient(to right bottom,rgb(129,199,248),rgb(241,250,255));
+}
+
+.skyGradient h2,
+.skyGradient p
+{
+    color: #121212 !important;
+}
+
+.skyGradient .button
+{
+    background-color: rgba(0,0,0,0.2);
+    color: #121212 !important;
+}
+
+.purpleGradient
+{
+    background: linear-gradient(to right bottom, rgb(65, 0, 185), rgb(0, 198, 255)) rgb(65, 0, 185);
+    color: rgb(245, 245, 245);
+    border-radius: 4px;
+}
+
+.overlapCap
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 50px !important;
+}
+
+.overlapImg
+{
+    width: 100%;
+    height: 420px;
+    position: relative;
+    bottom: 0px;
+}
+
+.overlapImg img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* footer css */
+footer
+{
+    color: #fff !important;
+    border-top:1px solid #2A2A2A;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+footer > div
+{
+    justify-content: center !important;
+    align-items: center;
+    text-align: center;
+}
+.quickLinks
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quickLinks p
+{
+    margin-top:10px;
+    display: block;
+    min-width: 50px;
+}
+
+.phone p
+{
+    margin-top: 1em;
+}
+
+footer a
+{
+    color: #fff;
+}
+
+footer a:hover
+{
+    color: #fff;
+}
+@media only screen and (max-width:1150px)
+{
+    .wrapper
+    {
+        padding: 20px 10px;
+    }
+}
+@media only screen and (max-width:950px)
+{
+    .Releaserow .box
+    {
+        width: 24%;
+    }
+    #last
+    {
+        display: none;
+    }
+}
+@media only screen and (max-width:750px)
+{
+
+    .overlap
+    {
+        height: auto;
+        padding-top: 50px;
+    }
+    .Releaserow
+    {
+        justify-content: space-around;
+    }
+    .Releaserow .box
+    {
+        width: 47%;
+        min-width: unset;
+    }
+    .Releaserow .box .img-area
+    {
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width:600px)
+{
+    .Releaserow .box .img-area
+    {
+        height: 300px;
+    }
+
+    .overlapImg
+    {
+        display: none;
+    }
+    .overlap
+    {
+        padding: 30px!important;
+    }
+    .overlapCap
+    {
+        padding: 0px !important;
+    }
+}
+
+@media only screen and (max-width:450px)
+{
+    .Releaserow .box .img-area
+    {
+        height: 210px;
+    }
+}
+
+
+/* Styles for wrapping the search box */
+
+.main {
+    width: 50%;
+    margin: 50px auto;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    display: flex;
+    color: #aaa;
+    align-items: center;
+    justify-content: center;
+}
+
+.has-search span
+{
+    font-size: 15px !important;
+}
+
+/* carousel css */
+
+.carousel-control-next, .carousel-control-prev
+{
+    width: 5% !important;
+}
+
+.carousel-item
+{
+    height: 50vh;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: top !important;
+    display: flex;
+    align-items: center;
+}
+
+
+#item2
+{
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4) ),url('../images/fortnite.jpg');
+}
+
+#item3
+{
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4) ),url('../images/dark_banner.jpg');
+}
+
+.carousel-indicators li
+{
+    display: block;
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    border: 2px solid #fff !important;
+    background: transparent !important;
+}
+
+.carousel-indicators .active
+{
+    background: #fff !important;
+}
+
+/* .carousel-inner p
+{
+    margin-bottom: 5px;
+} */
+
+.carousel-caption {
+    left: 7% !important;
+}
+
+.carousel-inner .button
+{
+    background:#121212;
+    color: #fff;
+}
+
+.pa0
+{
+    padding: 0px !important;
+}

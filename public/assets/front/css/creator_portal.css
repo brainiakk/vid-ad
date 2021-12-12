@@ -1,0 +1,395 @@
+.wrapper {
+    padding: 0px 30px;
+}
+.portal {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.heading h2 {
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 4px solid #007acc;
+    text-align: center;
+    text-transform: uppercase;
+}
+.sub_heading {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.sub_heading .head {
+    font-size: 35px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+.head_p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.dashContent .s_box {
+    background: #18181b;
+    padding: 20px 30px;
+    margin-top: 20px;
+    border-radius: 8px;
+    min-height: 380px;
+    min-width: 500px;
+}
+.dashContent .box1 {
+    background: #18181b;
+    padding: 20px 30px;
+    margin-top: 20px;
+    border-radius: 8px;
+    min-height: 380px;
+    min-width: 200px;
+}
+.dashBtn {
+    display: flex;
+    align-items: flex-end;
+}
+
+.s_box {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.s_box > div {
+    width: 100%;
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; */
+}
+
+.s_box i {
+    font-size: 45px !important;
+    color: #adadb8 !important;
+    margin-bottom: 25px !important;
+}
+
+.boxBold {
+    font-size: 22px !important;
+    font-weight: bolder;
+}
+
+.boxLight {
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+.ligh {
+    list-style: none;
+    text-align: left;
+}
+.ligh li {
+    padding: 20px;
+    text-align: left !important;
+    margin-left: -200px;
+}
+.list {
+    display: flex;
+    padding: 10px;
+    list-style: none;
+}
+.list li {
+    padding: 20px;
+}
+
+.button {
+    background: #007acc;
+    padding: 10px 20px;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.dashContent .box1 {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.dashContent .box1 img {
+    height: 200px;
+    width: 250px;
+}
+/* stream manager css */
+.stream_head {
+    background: #1f1f23;
+    color: #fff;
+    font-weight: 600;
+    padding: 5px 20px;
+}
+
+.streamManager {
+    color: #fff;
+}
+.form-control {
+    width: 100%;
+}
+.w-49 {
+    width: 49%;
+}
+.w-100 {
+    width: 100%;
+}
+.mt-4 {
+    margin-top: 2rem;
+}
+
+select {
+    background: #464648;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    resize: none;
+    padding: 10px;
+    color: #fff;
+    margin-top: 5px;
+}
+.d-none {
+    display: none;
+}
+.red {
+    color: #ff0000;
+}
+.chatContent,
+.quickContent {
+    background: #18181b;
+    height: 77vh;
+    margin: 2px 0px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.chatContent input {
+    background: #464648;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+}
+
+.chatContent input::placeholder {
+    color: #fff;
+}
+
+.videoDiv {
+    height: 80vh;
+    margin: 2px 0px;
+}
+
+.card1 {
+    width: 100%;
+    height: 120px;
+    background: #007acc;
+    color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+.card1 i {
+    font-size: 20px;
+}
+
+.streamManager .heading {
+    width: fit-content;
+    margin: 0px auto;
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 850px) {
+    .wrapper {
+        padding: 30px 20px;
+    }
+}
+
+/* modal css */
+.modal a.close-modal {
+    top: 0 !important;
+    right: 0 !important;
+}
+
+.modal {
+    background: #18181b !important;
+    color: #fff;
+}
+
+.modal form > div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.modalBtn {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.Mclose {
+    background: #464648;
+    margin-right: 20px;
+}
+
+form textarea,
+form input {
+    background: #464648;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    resize: none;
+    padding: 10px;
+    color: #fff;
+    margin-top: 5px;
+}
+
+form textarea::placeholder,
+form input::placeholder {
+    color: #fff !important;
+}
+
+a {
+    color: #fff !important;
+}
+
+.dashContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.dashContent > div {
+    width: 31% !important;
+}
+
+.Srow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Srow .scol1,
+.Srow .scol3 {
+    width: 25%;
+}
+
+.Srow .scol2 {
+    width: 49%;
+}
+/* playlist section */
+.playList {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.playList > div {
+    width: 24%;
+}
+
+.playList .boxImg {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.playList .boxImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.details {
+    display: flex;
+    margin: 15px 0;
+}
+
+.details .profile-pic {
+    background: #ccc;
+    min-width: 35px;
+    min-height: 35px;
+    max-width: 35px;
+    max-height: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.details .profile-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.uploaded::before {
+    content: "";
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: #111;
+    display: inline-block;
+    margin: 4px;
+}
+
+.title {
+    color: #fff;
+    width: 230px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.channel {
+    font-size: 14px;
+    color: #bfbfbf;
+}
+.views {
+    display: flex;
+    color: #bfbfbf;
+    font-size: 13px;
+}
+
+.video-group {
+    width: 35%;
+}
+.category {
+    width: 25%;
+}
+.table-views {
+    width: 25%;
+}
+.action {
+    width: 10%;
+}
+
+#preview-image {
+    width: 140px;
+    
+}
+
+
+.password-note{
+    color: #ff0000;
+    font-size: 12px;
+}
